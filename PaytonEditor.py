@@ -8,6 +8,7 @@ class PaytonModule():
     def __fromBin__(self, header, fw_body):
 
         (self.always_zeros, 
+         
         self.mdul_magic, 
         self.mdul_type, 
         self.mdul_instance, 
